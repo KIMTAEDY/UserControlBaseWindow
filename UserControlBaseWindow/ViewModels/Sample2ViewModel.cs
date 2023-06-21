@@ -2,9 +2,10 @@
 
 namespace UserControlBaseWindow.ViewModels
 {
+    using Bases;
     using Views;
 
-    public class Sample2ViewModel : ViewModelBase
+    public class Sample2ViewModel : ObservableBase
     {
         private int countShowSample3 = 0;
 

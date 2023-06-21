@@ -57,10 +57,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Converters\SystemButtonVisibilityConverter.cs" />
+    <Compile Include="Models\SampleModel.cs" />
     <Compile Include="Utils\FindControls.cs" />
     <Compile Include="Utils\Win32.cs" />
-    <Compile Include="ViewModels\%28Base%29\RelayCommand.cs" />
-    <Compile Include="ViewModels\%28Base%29\ViewModelBase.cs" />
+    <Compile Include="Bases\RelayCommand.cs" />
+    <Compile Include="Bases\ObservableBase.cs" />
     <Compile Include="ViewModels\Sample1ViewModel.cs" />
     <Compile Include="ViewModels\Sample2ViewModel.cs" />
     <Compile Include="Views\%28Base%29\TemplateSelector.cs" />

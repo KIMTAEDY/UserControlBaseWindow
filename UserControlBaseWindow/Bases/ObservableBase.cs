@@ -2,9 +2,9 @@
 using System.Linq.Expressions;
 using System.ComponentModel;
 
-namespace UserControlBaseWindow.ViewModels
+namespace UserControlBaseWindow.Bases
 {
-    public class ViewModelBase : INotifyPropertyChanged
+    public class ObservableBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
