@@ -1,11 +1,10 @@
-﻿using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace UserControlBaseWindow.ViewModels
 {
     using Bases;
     using Models;
-    using System.Collections.Generic;
-    using System.Windows.Documents;
 
     public class Sample1ViewModel : ObservableBase
     {
